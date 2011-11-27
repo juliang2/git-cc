@@ -9,7 +9,7 @@ from os.path import isdir
 import cache, reset
 
 IGNORE_CONFLICTS=False
-LOG_FORMAT = '%H%x01%s%n%b'
+LOG_FORMAT = '%H%x01[%an] %s%n%b'
 
 ARGS = {
     'force': 'ignore conflicts and check-in anyway',
